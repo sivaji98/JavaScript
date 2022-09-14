@@ -57,3 +57,17 @@ var y=document.write("value is \n", x>=50)?"grater":"smaller";
 var siva=25;
 var s=(siva>=25)? "true":"false";
 document.write(s);
+
+var x=70;
+document.write(x==80);
+document.write("</br>");
+document.write(x===80);
+document.write("</br>");
+document.write(x!=80);
+
+var x=9;
+var y=7;
+document.write("</br>");
+document.write(x&y);
+document.write("</br>");
+document.write(x|y);
